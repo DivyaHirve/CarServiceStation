@@ -12,7 +12,7 @@ public class Invoice {
 
 
 
-    private int calculate() {
+    public int calculate() {
         int total = 0;
         if ( carService instanceof Hatchback ) {
             for (String code : serviceCodes) {
